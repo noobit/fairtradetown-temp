@@ -1,0 +1,41 @@
+@charset utf-8;
+
+body {
+	background: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	max-width:600px !important;
+}
+h1 {
+  color: rgb(30, 181, 219);
+  font-weight: bold;
+}
+p {
+	color: #601C1C;
+	font-size: 1.4em;
+}
+p + p {
+	margin-top:2em;
+}
+img {
+	//max-height:200px;
+}
+.container {
+	padding: 3%;
+}
+#offline {
+	color:#fff;
+	padding:0;
+}
+#offline p {
+	margin: 1em;
+	color:#fff;
+}
+.net a, .net .glyphicon {
+	color:#C8D034;
+}
+.net {
+	font-size: 1em;
+	margin:25px 0 0 0;
+}
